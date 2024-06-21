@@ -1,27 +1,49 @@
-# Client
+# Exercise Logging and Sharing Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+## Project Plan
 
-## Development server
+This project aims to create a web application where users can log their exercises, select or recommend exercise programs, and share their exercise logs with friends. The website will offer several features to enhance user experience and promote fitness tracking and social interaction.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+### User Authentication
+- **Sign up, log in, log out**
+- **Profile management**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Exercise Program Selection
+- **View available exercise programs**
+- **Select and save preferred programs**
 
-## Build
+### Exercise Logging
+- **Log daily exercises**
+- **Track progress over time**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Recommendations
+- **Recommend exercise programs based on user preferences**
+- **Allow users to share their exercise logs with friends**
 
-## Running unit tests
+### Social Features
+- **Follow friends**
+- **View friends’ exercise logs and progress**
+- **Comment on friends’ logs**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tech Stack
 
-## Running end-to-end tests
+### Frontend
+- **Angular**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Backend
+- **Node.js with Express**
 
-## Further help
+### Database
+- **MongoDB**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Authentication
+- **JWT (JSON Web Tokens)**
+
+### Styling
+- **Bootstrap**
+
+### Deployment
+- **Docker**
+- **AWS**
